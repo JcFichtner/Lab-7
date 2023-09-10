@@ -1,0 +1,41 @@
+Escreva um programa que dê um sinal de alerta sonoro e peça uma senha
+numérica. O programa deve usar uma função para emitir o sinal de alerta e outra
+função para ler e retornar a senha. A função principal deve se encarregar das
+demais tarefas. Use o caractere sublinhado para indicar o local (e a quantidade de
+dígitos) da senha.
+
+Iniciando com um som...
+Digite sua senha: ______
+Obrigado!
+
+#include <iostream>
+
+using namespace std;
+
+void alarme(void);
+void senha(void);
+
+int main()
+{
+	alarme();
+	senha();
+	
+}
+
+void alarme(void)
+{
+	cout << "Iniciando Com Um Som...\a\n";
+
+	return;
+}
+
+void senha(void)
+{
+	cout << "Digite Sua Senha:______\b\b\b\b\b\b";
+	int senha;
+	cin >> senha;
+
+	cout << "Obrigado! Sua senha eh " << senha;
+
+	return;
+}
