@@ -1,0 +1,19 @@
+Escreva um programa que use a instrução cout juntamente com o caractere de
+tabulação para produzir a seguinte saída:
+
+Maça = 20 Unidades
+Melancia = 50 Unidades
+Ameixa = 30 Unidades
+
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+	cout << "Morango =\t20 Unidades\n";
+	cout << "Tangerina =\t50 Unidades\n";
+	cout << "Ameixa =\t30 Unidades";
+	
+}
