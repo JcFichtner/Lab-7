@@ -1,0 +1,27 @@
+Escreva uma função que receba um código numérico, tal como 65, e exiba na tela o
+caractere correspondente da tabela ASCII. No programa principal use essa função
+várias vezes para exibir os caracteres correspondentes aos números 80, 114, 111,
+103, 67, 111, 109, 112.
+
+#include <iostream>
+
+using namespace std;
+
+int num(int);
+
+int main()
+{
+
+
+	char letra1 = num(80);
+	char letra2 = num(111);
+	char letra3 = num(114);
+
+	cout << letra1 << ',' << letra2 << ',' << letra3;
+
+}
+
+int num(int x)
+{
+	return x;
+}
